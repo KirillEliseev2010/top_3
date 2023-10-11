@@ -1,0 +1,78 @@
+a {
+    color: rgb(52, 89, 159);
+    transition: 1s;
+}
+
+.link-page {
+    border: 2px solid rgb(52, 89, 159);
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    transition: 1s;
+}
+
+.link-page:hover{
+    background-color: rgb(161, 194, 208);
+    color: rgb(52, 89, 159);
+}
+
+.link-page p {
+    color: black;
+}
+
+header {
+    background-color: rgb(65, 65, 185);
+    padding: 40px 32px 40px 32px;
+    height: 400px;
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+    background-image: url(./img/headerBGTown.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+section {
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    padding: 40px 32px 40px 32px;
+}
+body{
+    background-color: rgb(158, 155, 155);
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+a:hover{
+    color: burlywood;
+}
+footer{
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+    background-color: black;
+    padding: 25px 32px 25px 32px;
+    color: white;
+}
+input{
+    font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 240px;
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid rgb(52, 89, 159);
+    margin-bottom: 8px;
+}
+button{
+    padding: 8px 8px 8px 8px;
+    background-color: rgb(52, 89, 159);
+    color: white;
+    border: 1px solid rgb(52, 89, 159);
+    transition: 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: rgb(52, 89, 159);
+}
+img{
+    width: 100%;
+    max-width: 700px;
+}
